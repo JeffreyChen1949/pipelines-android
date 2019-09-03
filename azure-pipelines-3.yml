@@ -16,6 +16,5 @@ steps:
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
     publishJUnitResults: false
-    codeCoverageToolOption: 'JaCoCo'
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
